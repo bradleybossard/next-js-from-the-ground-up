@@ -8,10 +8,17 @@ npm install next react react-dom
 
 ## add scripts to package.json
 ```
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "export": "next export"
+},
+```
+
+## add pages directory
+
+```
+mkdir pages
+touch index.js
 ```
